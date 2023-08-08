@@ -109,15 +109,68 @@ switch("afi"){
 
 //boucle while & for
 
- let specialite = prompt("Quelle specialité faite vous ? ")
+/*  let specialite = prompt("Quelle specialité faite vous ? ")
 while(specialite != "IT"){
     console.log("tu n'a pas ta place ici");
     specialite = prompt("quelle specialite faite vous ?")
 
-} 
+}  */
 
 /* let nbr = 1;
 while(nbr < 6){
     console.log("inferieur");
     nbr ++; 
 } */
+
+/* let compteur = 0;
+for(compteur; compteur < 5;compteur++){
+    console.log( `tour ${compteur}`);
+} */
+ /* for(let i =0; i < 5; i++){
+    console.log(`tour ${1}`);
+ } */
+
+ /* let math = Number(prompt("Note math")) ;
+ let physique = Number(prompt("Note physique"));
+ let SVT = Number (prompt("Note SVT"));
+ let philosophie = Number (prompt("Note philosophie"));
+
+let moyenne = (math + physique + SVT +philosophie);
+console.log("moyenne")
+ 
+if(moyenne < 10){
+    console.log("Tu sera recaler");
+}else if(moyenne == 10){
+    console.log("Tu est prenable");
+}else{
+    console.log("Excellent");
+} */
+
+/* let jour= (prompt ("Entrer un jour"));
+
+let lundi = "mardi";
+let mardi = "mercredi";
+
+switch("jour"){
+    case "lundi":
+        console.log("Demain c'est mardi");
+        break;
+        case "mardi":
+            console.log("Demain c'est mercredi");
+            break;
+} */
+let heure = prompt("Entrer l'heure");
+let minute = prompt("Entrer la minute");
+let seconde = prompt("Entrer la seconde");
+
+
+  
+    
+
+
+
+  
+
+
+ 
+ 
