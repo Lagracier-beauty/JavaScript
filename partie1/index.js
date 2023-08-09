@@ -1,6 +1,6 @@
 
 
-/* let nom;// declaration de la variable 
+ let nom;// declaration de la variable 
 nom = "Laeticia";// affectation de la variable 
 //camelCase
 let nomEtudiant = "Reddington";
@@ -10,7 +10,7 @@ console.log(nom,nomEtudiant,nombreDevie);
 
 
 let age = prompt("quelle est votre age?");
-console.log(age); */
+console.log(age);                       
 
 //let age = prompt("quelle est votre age");
 //console.log(age);
@@ -123,7 +123,7 @@ while(nbr < 6){
 } */
 
 /* let compteur = 0;
-for(compteur; compteur < 5;compteur++){
+for(compteur; compteur < 5;compteur++){;
     console.log( `tour ${compteur}`);
 } */
  /* for(let i =0; i < 5; i++){
@@ -146,7 +146,7 @@ if(moyenne < 10){
     console.log("Excellent");
 } */
 
-/* let jour= (prompt ("Entrer un jour"));
+/* let jour= prompt ("Entrer un jour");
 
 let lundi = "mardi";
 let mardi = "mercredi";
@@ -159,12 +159,18 @@ switch("jour"){
             console.log("Demain c'est mercredi");
             break;
 } */
-let heure = prompt("Entrer l'heure");
+/* let heure = prompt("Entrer l'heure");
 let minute = prompt("Entrer la minute");
 let seconde = prompt("Entrer la seconde");
+ */
 
+  let nombre=  Number(prompt("Entrer un nombre n"));
 
-  
+  n =0
+
+  for(let nombre = 0; nombre <=12 ;nombre ++){
+    console.log(`${nombre}`);
+  }
     
 
 
