@@ -166,10 +166,10 @@ let seconde = prompt("Entrer la seconde");
 
   let nombre=  Number(prompt("Entrer un nombre n"));
 
-  n =0
+ 
 
-  for(let nombre = 0; nombre <=12 ;nombre ++){
-    console.log(`${nombre}`);
+  for(let i = 0; i <=12 ;i++){
+    console.log(`${nombre}* ${i}`);
   }
     
 
