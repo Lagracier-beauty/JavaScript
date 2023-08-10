@@ -136,7 +136,7 @@ console.log(etudiant.nom); */
 
 
 
- let tableauNote =[1, 2, 3, 4, 5, 6, 7];
+ /* let tableauNote =[1, 2, 3, 4, 5, 6, 7];
 
 
 
@@ -149,7 +149,7 @@ let parcourTableau = (liste) =>{
     } 
 }
 
-parcourTableau(tableauNote)
+parcourTableau(tableauNote) */
 
 
 
@@ -189,3 +189,79 @@ films(tableau);
 
 
 
+//POO
+
+// La classe mère 
+ class Personne{
+    constructor(n,p){
+        this.nom = n;
+        this.prenom = p;
+    }
+   isLiving = true;
+    
+presentation(){
+    console.log(`je m'appelle ${this.nom} ${this.prenom}`)
+}
+}
+
+
+//appelation de la classe  fille 
+
+class proffesseur extends Personne{
+    constructor(nom,prenom,filière){
+        super(nom,prenom);
+        this.filière = filière;
+    }
+    frequente = true;
+
+} 
+let agbodjan = new proffesseur("Keleleng","Eric","D");
+console.log(agbodjan);
+
+class cour extends proffesseur{
+    constructor(nom,prenom,idCour){
+        super(nom,prenom,filière);
+        this.idCour = idCour;
+    }
+}
+let informatique = new cour("Algorithme","alg","R110");
+console.log(informatique);
+
+
+
+
+
+
+let franklin = new Personne("franklin","Delano");
+console.log(franklin);
+
+let audrey = new Personne("audrey","ayawa");
+console.log(audrey);
+
+
+//new prsonne 
+
+/* let koffi = new Personne();
+
+console.log(koffi);
+
+let andrey = new Personne();
+
+console.log(andrey);
+ */
+
+class animals {
+    constructor(n){
+        this.nom = n;
+    }
+
+    
+}
+
+let panthère = new animals("panthère");
+console.log(panthère)
+let chat = new animals("chat");
+console.log(chat);
+let chien = new animals("blacos");
+chien.isLiving = false;
+console.log(chien);
