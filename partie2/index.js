@@ -192,7 +192,7 @@ films(tableau);
 //POO
 
 // La classe mère 
- class Personne{
+ /* class Personne{
     constructor(n,p){
         this.nom = n;
         this.prenom = p;
@@ -202,12 +202,12 @@ films(tableau);
 presentation(){
     console.log(`je m'appelle ${this.nom} ${this.prenom}`)
 }
-}
+} */
 
 
 //appelation de la classe  fille 
 
-class proffesseur extends Personne{
+/* class proffesseur extends Personne{
     constructor(nom,prenom,filière){
         super(nom,prenom);
         this.filière = filière;
@@ -217,8 +217,8 @@ class proffesseur extends Personne{
 } 
 let agbodjan = new proffesseur("Keleleng","Eric","D");
 console.log(agbodjan);
-
-class cour extends proffesseur{
+ */
+/* class cour extends proffesseur{
     constructor(nom,prenom,idCour){
         super(nom,prenom,filière);
         this.idCour = idCour;
@@ -226,18 +226,18 @@ class cour extends proffesseur{
 }
 let informatique = new cour("Algorithme","alg","R110");
 console.log(informatique);
+ */
 
 
 
 
 
-
-let franklin = new Personne("franklin","Delano");
+/* let franklin = new Personne("franklin","Delano");
 console.log(franklin);
 
 let audrey = new Personne("audrey","ayawa");
 console.log(audrey);
-
+ */
 
 //new prsonne 
 
@@ -250,7 +250,7 @@ let andrey = new Personne();
 console.log(andrey);
  */
 
-class animals {
+/* class animals {
     constructor(n){
         this.nom = n;
     }
@@ -264,4 +264,4 @@ let chat = new animals("chat");
 console.log(chat);
 let chien = new animals("blacos");
 chien.isLiving = false;
-console.log(chien);
+console.log(chien); */
